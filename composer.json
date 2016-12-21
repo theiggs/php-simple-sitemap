@@ -1,0 +1,25 @@
+{
+  "name": "theiggs/php-simple-sitemap",
+  "version": "1.0",
+  "description": "Simple (to use) PHP sitemap generator.",
+  "keywords": ["php", "sitemap", "generator", "psr-1", "psr-2", "psr-4"],
+  "homepage": "https://github.com/theiggs/php-simple-sitemap/",
+  "type": "library",
+  "license": "MIT",
+  "minimum-stability": "stable",
+  "authors": [
+    {
+      "name": "Igor Bauer",
+      "email": "theiggs@gmail.com",
+      "homepage": "http://github.com/theiggs/"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.0",
+    "ext-SPL": "*"
+  },
+  "autoload": {
+    "psr-4": {"TheIggs\\SimpleSitemap\\": "src/"}
+  }
+}
+
